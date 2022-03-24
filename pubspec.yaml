@@ -1,0 +1,58 @@
+name: nativemg
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.0
+  google_fonts: ^2.1.0
+  get: ^4.3.8
+  country_picker: ^2.0.8
+  dotted_border: ^2.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/img/
+    # - assets/img/NoData/
+    - assets/img/onBoarding/
+    - assets/bottom_images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Thin.ttf
+          weight: 100
+        - asset: fonts/Poppins-Thin.ttf
+          weight: 200
+        - asset: fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/Poppins-Black.ttf
+          weight: 900
